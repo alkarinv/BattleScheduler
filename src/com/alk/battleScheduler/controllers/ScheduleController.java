@@ -115,6 +115,8 @@ public class ScheduleController {
 			if (pl.getDescription().getName().equalsIgnoreCase(name))
 				return pl;
 		}
+		if (name.equalsIgnoreCase("default")){
+			return BattleScheduler.getPlugin();}
 		return null;
 	}
 	private List<TimeIDOptions> getTimes(String name){

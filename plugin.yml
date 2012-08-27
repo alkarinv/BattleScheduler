@@ -1,7 +1,7 @@
 name: BattleScheduler
 
 main: com.alk.battleScheduler.BattleScheduler
-version: 1.2.5
+version: 1.2.6
 depend: []
 
 author: Alkarin
